@@ -56,7 +56,7 @@ class CoffeeMachine:
 
     def run(self):
         while True:
-            choice = input("What would you like? (espresso/latte/cappuccino/report/off): ").lower()
+            choice = input("What would you like? (espresso/latte/cappuccino/report): ").lower() #off is a secret keyword that the normal buyer won't see
             if choice == "off":
                 print("Turning off the machine. Goodbye!")
                 break
